@@ -1,0 +1,39 @@
+// Provide your solution for questions 1,2,3,4, and 6 here //
+
+Q1. [2 pts] What is the name of Algorithm B? Justify your answer. 
+
+merge sort, it uses bottom-up merge sort instead of recursion. it starts with arrays of size 1 then 2,4,8,... 
+till all the array is sorted.in the provided array it's clear that subsets of the array is sorted (every 4 elements).
+
+Q2. [2 pts] What is the name of Algorithm C? Justify your answer.
+
+quick sort, because it chooses a pivot then it sorts according to it. in the provided array 9 could be the 
+pivot because all elements on its right is larger than it and the ones on its left is smaller than it.
+
+Q3. [6 pts] Fill out the table below:
+
+              +-------------+-------------+
+			  |  Best Case  |  Worst Case |
++-------------+-------------+-------------+
+| Algorithm A |    O(N+M)   |    O(N+M)   | ///N: number of elements to be sorted(original array). M: range of the numbers(freq array).
++-------------+-------------+-------------+
+| Algorithm B |   O(nlogn)  |   O(nlogn)  |
++-------------+-------------+-------------+
+| Algorithm C |   O(nlogn)  |    O(n^2)   | 
++-------------+-------------+-------------+
+
+
+Q4. [3 pts] Do you think that your answer for Q3 contradicts with the following statement, justify your answer.
+
+	"Every comparison-based sorting algorithm performs Ω(nlogn) comparisons in the worst-case."
+
+It doesn't contradict because algorithm A (counting sort) is not a comparison-based algorithm it doesn't compare elements unlike the others. 
+so it doesn't affect this statement. while, algorithm B(merge sort) and C(quick sort) are comparison-based and they are examples to show that 
+this statement is correct.
+
+Q5. [2 pts] As a judge for this case, do you agree with algorithm A? do you think that its the best sorting algorithm? Justify your answer.
+
+it has a linear time complexity which makes it better than many sorting algorithms but if the range between the min and max numbers is huge
+and there's a big difference between the range(freq array size) and number of elements(original array size) it might not be the best. 
+because the time complexity will get larger too. another problem is that it uses an extra space(array) to sort.
+
