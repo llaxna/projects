@@ -1,0 +1,14 @@
+
+template <class T>
+ostream& operator<<(ostream& out, const Tour<T>& tour) {
+    if (tour.size == 0)
+        return out;
+
+    Node<T>* curr = tour.start;
+    do {
+        out << curr->val << '\n';
+        curr = curr->next;
+    } while (curr != tour.start);
+
+    return out;
+}
