@@ -1,6 +1,8 @@
 # PWM LED Brightness Control using Raspberry Pi (RPi.GPIO)
 This script controls an LED’s brightness using Pulse Width Modulation (PWM) on a Raspberry Pi. The LED gradually brightens and dims in a loop.
 
+View Video: https://drive.google.com/drive/folders/105en6MxW4PY2MlKQ1TWapy_ahnAgrgUW?usp=drive_link 
+
 ## Requirements
 - Raspberry Pi with Raspbian OS
 - Python 3 installed
