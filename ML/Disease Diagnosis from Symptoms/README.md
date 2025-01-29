@@ -1,6 +1,6 @@
 # Disease Diagnosis from Symptoms
 ## Overview
-This project utilizes a neural network to predict potential diseases based on user-input symptoms. The model is trained on a dataset of symptoms and corresponding diseases, leveraging machine learning for accurate diagnosis.
+This project utilizes a **neural network** to predict potential diseases based on user-input symptoms. The model is trained on a dataset of symptoms and corresponding diseases, leveraging machine learning for accurate diagnosis.
 
 ## Features
 ✅ Predicts diseases based on multiple symptoms
