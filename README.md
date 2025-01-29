@@ -20,6 +20,6 @@ The repository is divided into folders corresponding to specific courses and the
 - **Algorithm Design and Analysis (11313)**: Techniques for designing and analyzing algorithms, including divide-and-conquer, greedy algorithms, dynamic programming, and NP-Completeness.
 
 ## 🛠 Technologies Used
-- **Programming Languages**: Python, C++
+- **Programming Languages**: Python, C++, SQL
 - **Libraries & Frameworks**: OpenCV, scikit-learn, NumPy, Pandas, Matplotlib
 - **Tools**: Jupyter Notebook, Google Colab, Visual Studio Code
