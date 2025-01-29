@@ -4,7 +4,9 @@ This project utilizes a neural network to predict potential diseases based on us
 
 ## Features
 ✔ Predicts diseases based on input symptoms
+
 ✔ Uses a neural network for classification
+
 ✔ Handles multiple symptoms at once
 
 ## Technologies Used
