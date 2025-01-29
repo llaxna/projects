@@ -1,0 +1,3 @@
+# Overview
+In this project, you will use Stanford Question Answering Dataset (SQuAD), which is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.
+You are requested to Question- answering model based on the following dataset (https://huggingface.co/datasets/rajpurkar/squad?row=5 ) from huggingface website. You should learn how to download this dataset before you use it. Your model should use BiLSTM with attention.
