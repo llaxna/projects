@@ -19,6 +19,7 @@ This project utilizes a **neural network** to predict potential diseases based o
 - **Matplotlib & Seaborn** (Visualization)
 
 ## Dataset
+**Kaggle Link**: https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset
 The dataset consists of symptoms and their related diseases. It has been preprocessed for better accuracy.
 
 ## Model Architecture
