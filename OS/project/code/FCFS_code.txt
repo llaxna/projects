@@ -1,0 +1,39 @@
+def CalculateTurnaroundTime(at, bt, wt, N):
+    tat = [0] * N
+
+    print("P.No.\tArrival Time\tBurst Time\tWaiting Time\tTurnaround Time")
+    for i in range(N):
+        tat[i] = bt[i] + wt[i]
+        print(i + 1, "\t\t", at[i], "\t\t", bt[i], "\t\t", wt[i], "\t\t", tat[i])
+
+    print('\n')
+
+    average_tat = sum(tat) / N
+    print("Average turnaround time =", average_tat)
+
+
+def CalculateWaitingTime(at, bt, N):
+    wt = [0] * N
+    wt[0] = 0
+
+    for i in range(1, N):
+        wt[i] = (at[i - 1] + bt[i - 1] + wt[i - 1]) - at[i]
+
+    average = 0.0;
+    sum = 0;
+
+    for i in range(N):
+        sum = sum + wt[i];
+
+    average = sum / N;
+
+    CalculateTurnaroundTime(at, bt, wt, N)
+
+    print("Average waiting time = " , average);
+
+
+if __name__ == '__main__':
+    N = 5
+    at = [0, 2, 4, 6, 7]
+    bt = [4, 2, 1, 3, 5]
+    CalculateWaitingTime(at, bt, N)
