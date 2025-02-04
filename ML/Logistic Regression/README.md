@@ -3,19 +3,19 @@
 This project implements a **multiclass classifier using Logistic Regression (One vs. All)**. The implementation is done in two parts:
 
 1. **Without using sklearn** – Building logistic regression from scratch.
-2. **Using sklearn** – Utilizing LogisticRegression from sklearn for classification.
+2. **Using sklearn** – Utilizing `LogisticRegression` from `sklearn` for classification.
    
 ## Data Description
 - The dataset consists of three columns:
-  - Feature_1 and Feature_2 (independent variables)
-  - Class (target variable with three classes: 0, 1, and 2)
+  - `Feature_1` and `Feature_2` (independent variables)
+  - `Class` (target variable with three classes: 0, 1, and 2)
 - Data is split into training and testing sets for model evaluation.
   
 ## Part 1: Logistic Regression Without Sklearn
-This section implements logistic regression manually without using sklearn. The steps include:
+This section implements logistic regression manually without using `sklearn`. The steps include:
 
 #### 1. Data Visualization
-- A scatter plot is created to visualize the distribution of the three classes based on Feature_1 and Feature_2.
+- A scatter plot is created to visualize the distribution of the three classes based on `Feature_1` and `Feature_2`.
 
 #### 2. One vs. All Classification Setup
 - The multiclass classification problem is converted into three separate binary classification problems (one classifier per class).
@@ -46,7 +46,7 @@ This section implements logistic regression manually without using sklearn. The 
 - Accuracy, precision, and recall metrics are computed to evaluate model performance.
 
 ## Part 2: Logistic Regression Using Sklearn
-This section implements logistic regression using sklearn for efficiency. The steps include:
+This section implements logistic regression using `sklearn` for efficiency. The steps include:
 
 #### 1. Splitting Data
 - The dataset is divided into training and test sets to assess model generalization.
@@ -64,4 +64,4 @@ This section implements logistic regression using sklearn for efficiency. The st
 - The learned coefficients from the logistic regression model are printed to understand how the model separates different classes.
 
 ## Conclusion
-This project demonstrates the implementation of a **One vs. All logistic regression classifier**, both manually and using sklearn. By comparing both approaches, we gain insight into how logistic regression functions internally while also appreciating the efficiency of using machine learning libraries.
+This project demonstrates the implementation of a **One vs. All logistic regression classifier**, both manually and using `sklearn`. By comparing both approaches, we gain insight into how logistic regression functions internally while also appreciating the efficiency of using machine learning libraries.
