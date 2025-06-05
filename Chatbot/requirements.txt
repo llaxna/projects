@@ -1,0 +1,11 @@
+streamlit
+streamlit-authenticator
+langchain
+ollama
+pytesseract
+pillow
+chromadb
+pyttsx3
+whisper
+sounddevice
+wavio
